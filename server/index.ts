@@ -98,7 +98,7 @@ app.get("/health", (_req, res) => {
   const key = process.env.ANTHROPIC_API_KEY;
   console.log(
     "ANTHROPIC_API_KEY:",
-    key ? ⁠`"SET(" : "NOT SET"
+    key ? ⁠`"SET" : "NOT SET"
   );
 
   startAdminBot();
