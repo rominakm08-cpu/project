@@ -4,6 +4,11 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
+  resolve: {
+  alias: {
+    axios: "axios"
+  }
+},
   plugins: [
     react(),
     runtimeErrorOverlay(),
