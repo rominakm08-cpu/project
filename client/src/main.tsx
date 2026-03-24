@@ -1,4 +1,3 @@
-[24.03.2026, 22:16:30] Джамаль: import { createRoot } from "react-dom/client";
 import { Component, type ReactNode } from "react";
 import App from "./App";
 import "./index.css";
