@@ -1,3 +1,4 @@
+// @ts-ignore
 import { Component, type ReactNode } from "react";
 import App from "./App";
 import "./index.css";
