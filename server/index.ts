@@ -89,11 +89,7 @@ app.get("/health", (_req, res) => {
     console.log(⁠ Server running on port ${port} ⁠);
 
     const key = process.env.ANTHROPIC_API_KEY;
-    if (key) {
-      console.log("ANTHROPIC_API_KEY: SET");
-    } else {
-      console.log("ANTHROPIC_API_KEY: NOT SET");
-    }
+    console.log("ANTHROPIC_API_KEY:", key ? "SET" : "NOT SET");
 
     startAdminBot();
   });
