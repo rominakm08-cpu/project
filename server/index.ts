@@ -30,7 +30,6 @@ export function log(message: string, source = "express") {
     second: "2-digit",
     hour12: true,
   });
-
   console.log(⁠ ${formattedTime} [${source}] ${message} ⁠);
 }
 
@@ -89,7 +88,8 @@ app.get("/health", (_req, res) => {
     console.log(⁠ Server running on port ${port} ⁠);
 
     const key = process.env.ANTHROPIC_API_KEY;
-    console.log("ANTHROPIC_API_KEY:", key ? "SET" : "NOT SET");
+    const keyStatus = key ? "SET" : "NOT SET";
+    console.log("ANTHROPIC_API_KEY:", keyStatus);
 
     startAdminBot();
   });
