@@ -1,4 +1,4 @@
-mport express, { type Request, Response, NextFunction } from "express";
+import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { serveStatic } from "./static";
 import { createServer } from "http";
@@ -89,7 +89,11 @@ app.get("/health", (_req, res) => {
     console.log(⁠ Server running on port ${port} ⁠);
 
     const key = process.env.ANTHROPIC_API_KEY;
-    console.log("ANTHROPIC_API_KEY:", key ? "SET" : "NOT SET");
+    if (key) {
+      console.log("ANTHROPIC_API_KEY: SET");
+    } else {
+      console.log("ANTHROPIC_API_KEY: NOT SET");
+    }
 
     startAdminBot();
   });
