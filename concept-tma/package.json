@@ -1,0 +1,12 @@
+{
+  "name": "concept-tma",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

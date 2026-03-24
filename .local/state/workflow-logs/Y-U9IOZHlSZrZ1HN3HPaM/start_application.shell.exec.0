@@ -1,0 +1,41 @@
+[1G[0K⠙[1G[0K
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K⠙[1G[0K9:19:59 AM [express] serving on port 5000
+ANTHROPIC_API_KEY: SET (starts with sk-ant-a...)
+[adminBot] Skipping admin bot polling in development mode
+9:20:01 AM [express] GET / 200 in 541ms
+9:20:02 AM [express] GET /@replit/vite-plugin-dev-banner/banner-script.js 200 in 1ms
+9:20:02 AM [express] GET /@vite/client 200 in 30ms
+9:20:02 AM [express] GET /src/main.tsx 200 in 1ms
+9:20:02 AM [express] GET /@react-refresh 304 in 1ms
+9:20:03 AM [express] GET /src/App.tsx 304 in 1ms
+9:20:03 AM [express] GET /src/index.css 304 in 1ms
+9:20:03 AM [express] GET /src/store/index.ts 304 in 0ms
+9:20:03 AM [express] GET /src/pages/Splash.tsx 304 in 1ms
+9:20:04 AM [express] GET /src/pages/Onboarding.tsx 304 in 1ms
+9:20:04 AM [express] GET /src/pages/creator/Register.tsx 304 in 1ms
+9:20:04 AM [express] GET /src/pages/creator/Home.tsx 304 in 0ms
+9:20:04 AM [express] GET /src/pages/creator/Offers.tsx 304 in 1ms
+9:20:04 AM [express] GET /src/pages/creator/Projects.tsx 304 in 1ms
+9:20:05 AM [express] GET /src/pages/creator/Profile.tsx 304 in 1ms
+9:20:05 AM [express] GET /src/pages/creator/EditProfile.tsx 304 in 0ms
+9:20:05 AM [express] GET /src/pages/business/Register.tsx 304 in 1ms
+9:20:05 AM [express] GET /src/pages/business/Home.tsx 304 in 1ms
+9:20:05 AM [express] GET /src/pages/business/CreateOffer.tsx 304 in 0ms
+9:20:05 AM [express] GET /src/pages/business/Projects.tsx 304 in 1ms
+9:20:05 AM [express] GET /src/pages/business/Profile.tsx 304 in 1ms
+9:20:05 AM [express] GET /src/pages/admin/Dashboard.tsx 304 in 0ms
+9:20:05 AM [express] GET /src/pages/admin/Creators.tsx 304 in 0ms
+9:20:06 AM [express] GET /src/pages/admin/Businesses.tsx 304 in 1ms
+9:20:06 AM [express] GET /src/pages/admin/Offers.tsx 304 in 1ms
+9:20:06 AM [express] GET /src/pages/admin/Referrals.tsx 304 in 1ms
+9:20:06 AM [express] GET /src/pages/admin/Balance.tsx 304 in 0ms
+9:20:06 AM [express] GET /src/pages/shared/Balance.tsx 304 in 0ms
+9:20:06 AM [express] GET /src/pages/shared/AISupport.tsx 304 in 1ms
+9:20:06 AM [express] GET /src/pages/shared/Notifications.tsx 304 in 0ms
+9:20:06 AM [express] GET /src/api/index.ts 304 in 1ms
+9:20:06 AM [express] GET /src/components/Tabs.tsx 304 in 1ms
+9:20:07 AM [express] GET /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs 304 in 1ms
+9:20:07 AM [express] POST /api/auth/login 200 in 2ms :: {"user":null,"profile":null,"tgUser":null}

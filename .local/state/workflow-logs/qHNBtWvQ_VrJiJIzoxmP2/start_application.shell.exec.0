@@ -1,0 +1,7 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K9:53:27 AM [express] serving on port 5000
+ANTHROPIC_API_KEY: SET (starts with sk-ant-a...)
+[adminBot] Skipping admin bot polling in development mode

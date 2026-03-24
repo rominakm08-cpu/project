@@ -1,0 +1,267 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K8:45:04 PM [express] serving on port 5000
+ANTHROPIC_API_KEY: SET (starts with sk-ant-a...)
+[adminBot] Skipping admin bot polling in development mode
+8:45:05 PM [express] GET / 200 in 446ms
+8:45:06 PM [express] GET /@replit/vite-plugin-dev-banner/banner-script.js 200 in 2ms
+8:45:06 PM [express] GET /src/main.tsx 200 in 1ms
+8:45:06 PM [express] GET / 200 in 60ms
+8:45:06 PM [express] GET /@vite/client 200 in 62ms
+8:45:06 PM [express] GET /@react-refresh 304 in 1ms
+8:45:06 PM [express] GET /src/App.tsx 200 in 1ms
+8:45:06 PM [express] GET /src/index.css 200 in 0ms
+8:45:07 PM [express] GET /src/store/index.ts 304 in 1ms
+8:45:07 PM [express] GET /src/pages/creator/Register.tsx 304 in 0ms
+8:45:07 PM [express] GET /src/pages/creator/Home.tsx 200 in 3ms
+8:45:07 PM [express] GET /src/pages/Splash.tsx 304 in 1ms
+8:45:07 PM [express] GET /src/pages/Onboarding.tsx 304 in 1ms
+8:45:07 PM [express] GET /src/pages/creator/Offers.tsx 304 in 0ms
+8:45:07 PM [express] GET /src/pages/creator/Projects.tsx 304 in 1ms
+8:45:07 PM [express] GET /src/pages/creator/Profile.tsx 304 in 0ms
+8:45:07 PM [express] GET /src/pages/creator/EditProfile.tsx 304 in 1ms
+8:45:07 PM [express] GET /src/pages/business/Register.tsx 304 in 1ms
+8:45:07 PM [express] GET /src/pages/business/Home.tsx 304 in 0ms
+8:45:07 PM [express] GET /src/pages/business/CreateOffer.tsx 304 in 1ms
+8:45:07 PM [express] GET /src/pages/business/Projects.tsx 304 in 1ms
+8:45:07 PM [express] GET /src/pages/admin/Dashboard.tsx 200 in 11ms
+8:45:07 PM [express] GET /src/pages/business/Profile.tsx 304 in 1ms
+8:45:07 PM [express] GET /src/pages/admin/Creators.tsx 304 in 0ms
+8:45:07 PM [express] GET /src/pages/admin/Businesses.tsx 304 in 0ms
+8:45:07 PM [express] GET /src/pages/admin/Referrals.tsx 304 in 1ms
+8:45:08 PM [express] GET /src/pages/admin/Offers.tsx 304 in 0ms
+8:45:08 PM [express] GET /src/pages/shared/Balance.tsx 304 in 0ms
+8:45:08 PM [express] GET /src/pages/shared/AISupport.tsx 200 in 1ms
+8:45:08 PM [express] GET /src/pages/admin/Balance.tsx 304 in 1ms
+8:45:08 PM [express] GET /src/pages/shared/Support.tsx 304 in 0ms
+8:45:08 PM [express] GET /src/pages/shared/Notifications.tsx 304 in 1ms
+8:45:08 PM [express] GET /src/pages/creator/Bonuses.tsx 200 in 1ms
+8:45:08 PM [express] GET /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs 304 in 1ms
+8:45:08 PM [express] GET /src/api/index.ts 200 in 0ms
+8:45:08 PM [express] GET /src/components/Tabs.tsx 200 in 0ms
+8:45:08 PM [express] POST /api/auth/login 200 in 1ms :: {"user":null,"profile":null,"tgUser":null}
+8:45:10 PM [express] GET /@vite/client 200 in 5ms
+8:45:10 PM [express] GET /@replit/vite-plugin-dev-banner/banner-script.js 200 in 0ms
+8:45:10 PM [express] GET /src/main.tsx 200 in 1ms
+8:45:10 PM [express] GET /@react-refresh 200 in 5ms
+8:45:10 PM [express] GET /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs 200 in 1ms
+8:45:11 PM [express] GET /@fs/home/runner/workspace/node_modules/.vite/deps/react_jsx-dev-runtime.js 200 in 1ms
+8:45:11 PM [express] GET /@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js 200 in 0ms
+8:45:11 PM [express] GET /@fs/home/runner/workspace/node_modules/.vite/deps/react.js 200 in 1ms
+8:45:11 PM [express] GET /src/App.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/index.css 200 in 1ms
+8:45:11 PM [express] GET /@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PMKBOVCG.js 200 in 3ms
+8:45:11 PM [express] GET /@fs/home/runner/workspace/node_modules/.vite/deps/chunk-G3PMV62Z.js 200 in 1ms
+8:45:11 PM [express] GET /@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LPF6KSF2.js 200 in 6ms
+8:45:11 PM [express] GET /@fs/home/runner/workspace/node_modules/.vite/deps/react-router-dom.js 200 in 4ms
+8:45:11 PM [express] GET /src/store/index.ts 200 in 0ms
+8:45:11 PM [express] GET /src/pages/Splash.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/Onboarding.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/creator/Register.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/creator/Home.tsx 200 in 3ms
+8:45:11 PM [express] GET /src/pages/creator/Offers.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/creator/Projects.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/creator/Profile.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/creator/EditProfile.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/business/Register.tsx 200 in 2ms
+8:45:11 PM [express] GET /src/pages/business/Home.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/business/CreateOffer.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/business/Projects.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/business/Profile.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/admin/Dashboard.tsx 200 in 4ms
+8:45:11 PM [express] GET /src/pages/admin/Creators.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/admin/Businesses.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/admin/Offers.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/admin/Referrals.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/admin/Balance.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/shared/Balance.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/shared/AISupport.tsx 200 in 0ms
+8:45:11 PM [express] GET /src/pages/shared/Support.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/shared/Notifications.tsx 200 in 1ms
+8:45:11 PM [express] GET /src/pages/creator/Bonuses.tsx 200 in 0ms
+8:45:11 PM [express] GET /@fs/home/runner/workspace/node_modules/.vite/deps/zustand.js 200 in 1ms
+8:45:11 PM [express] GET /src/api/index.ts 200 in 1ms
+8:45:11 PM [express] GET /src/components/Tabs.tsx 200 in 0ms
+8:45:11 PM [express] GET /@fs/home/runner/workspace/node_modules/.vite/deps/axios.js 200 in 1ms
+8:45:11 PM [express] POST /api/auth/login 200 in 1ms :: {"user":null,"profile":null,"tgUser":null}
+8:45:11 PM [express] GET /favicon.png 200 in 3ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:47:56 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/pages/creator/Register.tsx, /src/pages/business/Register.tsx, /src/pages/creator/Home.tsx, /src/pages/creator/EditProfile.tsx, /src/pages/creator/Bonuses.tsx, /src/pages/shared/Notifications.tsx, /src/pages/shared/AISupport.tsx, /src/pages/shared/Balance.tsx, /src/pages/admin/Dashboard.tsx, /src/pages/admin/Balance.tsx[22m
+8:47:56 PM [express] GET /src/App.tsx 200 in 9ms
+8:47:56 PM [express] GET /src/pages/business/Register.tsx 200 in 2ms
+8:47:56 PM [express] GET /src/pages/creator/Home.tsx 200 in 3ms
+8:47:56 PM [express] GET /src/pages/creator/Bonuses.tsx 200 in 1ms
+8:47:56 PM [express] GET /src/pages/creator/Register.tsx 200 in 1ms
+8:47:56 PM [express] GET /src/pages/creator/EditProfile.tsx 200 in 1ms
+8:47:56 PM [express] GET /src/pages/shared/Notifications.tsx 200 in 1ms
+8:47:57 PM [express] GET /src/pages/shared/AISupport.tsx 200 in 1ms
+8:47:57 PM [express] GET /src/pages/shared/Balance.tsx 200 in 1ms
+8:47:57 PM [express] GET /src/pages/admin/Dashboard.tsx 200 in 1ms
+8:47:57 PM [express] GET /src/pages/admin/Balance.tsx 200 in 1ms
+8:47:57 PM [express] GET /src/api/index.ts 200 in 1ms
+8:47:57 PM [express] GET /src/store/index.ts 200 in 1ms
+8:47:57 PM [express] GET /src/pages/creator/Offers.tsx 200 in 0ms
+8:47:57 PM [express] GET /src/pages/creator/Projects.tsx 200 in 1ms
+8:47:57 PM [express] GET /src/pages/creator/Profile.tsx 200 in 0ms
+8:47:57 PM [express] GET /src/pages/business/Home.tsx 200 in 0ms
+8:47:57 PM [express] GET /src/pages/business/CreateOffer.tsx 200 in 1ms
+8:47:57 PM [express] GET /src/pages/business/Projects.tsx 200 in 0ms
+8:47:57 PM [express] GET /src/pages/business/Profile.tsx 200 in 1ms
+8:47:57 PM [express] GET /src/pages/admin/Creators.tsx 200 in 1ms
+8:47:57 PM [express] GET /src/pages/admin/Businesses.tsx 200 in 0ms
+8:47:57 PM [express] GET /src/pages/admin/Offers.tsx 200 in 0ms
+8:47:57 PM [express] GET /src/pages/admin/Referrals.tsx 200 in 0ms
+8:47:58 PM [express] POST /api/auth/login 200 in 0ms :: {"user":null,"profile":null,"tgUser":null}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:49:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m
+8:49:29 PM [express] GET /src/App.tsx 200 in 115ms
+8:49:30 PM [express] POST /api/auth/login 200 in 1ms :: {"user":null,"profile":null,"tgUser":null}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:49:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx[22m [33m(x2)[39m
+8:49:43 PM [express] GET /src/App.tsx 200 in 57ms
+8:49:44 PM [express] GET /src/pages/shared/Community.tsx 200 in 1ms
+8:49:44 PM [express] GET /src/pages/shared/News.tsx 200 in 0ms
+8:49:45 PM [express] POST /api/auth/login 200 in 1ms :: {"user":null,"profile":null,"tgUser":null}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:50:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/creator/Home.tsx[22m
+8:50:04 PM [express] GET /src/pages/creator/Home.tsx 200 in 150ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:50:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/Dashboard.tsx[22m
+8:50:13 PM [express] GET /src/pages/admin/Dashboard.tsx 200 in 274ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m8:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/Dashboard.tsx[22m [33m(x2)[39m
+8:50:43 PM [express] GET /src/pages/admin/Dashboard.tsx 200 in 256ms
