@@ -31,7 +31,7 @@ export function log(message: string, source = "express") {
     hour12: true,
   });
 
-  console.log(`${formattedTime} [${source}] ${message}`);
+  console.log(⁠ ${formattedTime} [${source}] ${message} ⁠);
 }
 
 app.use((req, res, next) => {
@@ -47,7 +47,7 @@ app.use((req, res, next) => {
 
   res.on("finish", () => {
     const duration = Date.now() - start;
-    let logLine = `${req.method} ${reqPath} ${res.statusCode} in ${duration}ms`;
+    let logLine = ⁠ ${req.method} ${reqPath} ${res.statusCode} in ${duration}ms ⁠;
     if (capturedJsonResponse && reqPath.startsWith("/api")) {
       logLine += ` :: ${JSON.stringify(capturedJsonResponse)}`;
     }
@@ -77,9 +77,6 @@ app.get("/health", (_req, res) => {
     return res.status(status).json({ message });
   });
 
-  // importantly only setup vite in development and after
-  // setting up all the other routes so the catch-all route
-  // doesn't interfere with the other routes
   if (process.env.NODE_ENV === "production") {
     serveStatic(app);
   } else {
@@ -87,19 +84,13 @@ app.get("/health", (_req, res) => {
     await setupVite(httpServer, app);
   }
 
-  // ALWAYS serve the app on the port specified in the environment variable PORT
-  // Other ports are firewalled. Default to 5000 if not specified.
-  // this serves both the API and the client.
-  // It is the only port that is not firewalled.
   const port = parseInt(process.env.PORT || "5000", 10);
   httpServer.listen(port, () => {
-  console.log(`⁠ Server r running on port ${port} ⁠);
+    console.log(⁠ Server running on port ${port} ⁠);
 
-  const key = process.env.ANTHROPIC_API_KEY;
-  console.log(
-    "ANTHROPIC_API_KEY:",
-    key ? ⁠`"SET" : "NOT SET"
-  );
+    const key = process.env.ANTHROPIC_API_KEY;
+    console.log("ANTHROPIC_API_KEY:", key ? "SET" : "NOT SET");
 
-  startAdminBot();
-});
+    startAdminBot();
+  });
+})();
